@@ -13,6 +13,7 @@ Instructions
 VIRTUAL_HOST=mxsubdomain.domain.com
 SLACK_AUTH_TOKEN=[generate one here][2]
 SLACK_POST_HOOK=[your webhook URL][3]
+SLACK_CHANNEL=#yourchannel
 ```
 
 3. Run the app with **npm start** (I personally use it in a Docker container behind [HAProxy][4]) 

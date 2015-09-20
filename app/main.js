@@ -42,7 +42,7 @@ function uploadAttachment(config) {
 function getData(data) {  
   var config = {
       text: data.text,
-      channel: '#random',
+      channel: process.env.SLACK_CHANNEL || '#random',
       subject: data.subject,
       image: null,
       received:'New Email from ' + data.headers.from
