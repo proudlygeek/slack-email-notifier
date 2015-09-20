@@ -1,0 +1,7 @@
+smtp:
+    build: .
+    ports: 
+        - "4001:25"
+    volumes:
+        - /home/proudlygeek/vhosts/codebox.gbargel.li/workspace/slack-email-notifier/app:/src/app
+    env_file: slack.env
