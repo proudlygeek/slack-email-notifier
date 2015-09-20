@@ -1,13 +1,13 @@
-# :mailbox_with_mail: Slack email notifier #
+# :mailbox_with_mail: Slack Email Notifier #
 
-This SMTP server sends a message in a Slack channel of your choice when receiving an email.
+Sends a message in a Slack channel of your choice when receiving an email.
 Supports attachment upload on Slack. 
 
 Instructions
 ------------
 
 1. Configure DNS records (MX, A) for your SMTP server (see [here][1] for tips) subdomain;
-2. Copy *slack.env.template* into *slack.env* and configure it by replacing the appropriate keys:
+2. Copy *slack.env.template* into *slack.env* and replace the keys values:
 
 ```
 VIRTUAL_HOST=mxsubdomain.domain.com
